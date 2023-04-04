@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <script src="./script.js" defer></script>
     <title>World of Codecraft</title>
 </head>
+
 <body>
     <h1>World of Codecraft</h1>
     <div id="gameBoard">
@@ -25,7 +27,7 @@
             <div class="health">Health: <span id="player1_health"></span></div>
             <div class="weaponList">
                 <h3>Shields:</h3>
-                <ul id ="player1_shields"></ul>
+                <ul id="player1_shields"></ul>
                 <h3>Weapons:</h3>
                 <ul id="player1_weapons"></ul>
                 <p class="weapon_in_use">Weapon in use: <span id="player1_equipped"></span></p>
@@ -40,7 +42,7 @@
                 <input type="text" value="" placeholder="Enter name ..." id="player2_name">
             </form>
             <!-- Carlos to fix -->
-            <img id="youDied" src="./images/youdied.gif"/>
+            <img id="youDied" src="./images/youdied.gif" />
             <div class="playerAttributes" id="kitBoard">
                 <!-- <p>Name: <span id="player2_name"></span></p> -->
 
@@ -54,7 +56,18 @@
         </div>
 
     </div>
-        <h2>Turn: Player <span id="turn"></span></h2>
-        <p><i><span id="turn_warning"></span><i</p>
+    <div class="battleInterface">
+        <div class="wrap">
+            <div class="A">
+                <div class="A1" id="battleInterface">Battle Interface</div>
+            </div>
+            <div class="B">
+                <div class="B1" id="attackInfo">Attack Info</div>
+            </div>
+            <div class="turn" id="turn">Turn: Player</div>
+            <p><i><span id="turn_warning"></span>
+                </i></p>
+        </div>
 </body>
+
 </html>
